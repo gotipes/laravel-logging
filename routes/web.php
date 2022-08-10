@@ -14,6 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return "
+        Find logging test file in <b>tests/Feature/LoggingTest.php</b><br>
+        Find logging config file in <b>config/logging.php</b>
+    ";
 });
 
